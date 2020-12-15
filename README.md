@@ -1,7 +1,7 @@
 # Ejercicios de la promoción L de **Adalab**
 Ejercicios de Adriana Del Teso en la promoción L en Adalab.
 
-[] Módulo 1:
+[ ] Módulo 1:
 - ¡Holi, Mundo!
 - Gazpacho.
 - ¡Una tabla!
@@ -9,5 +9,5 @@ Ejercicios de Adriana Del Teso en la promoción L en Adalab.
 - Enlaces rojos.
 - Lenguajes de programación II, la venganza.
 
-[] Módulo 2:
+[ ] Módulo 2:
 -
