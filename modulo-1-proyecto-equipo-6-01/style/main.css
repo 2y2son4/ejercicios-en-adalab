@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    color:#54585a;
+    background-color: white;
+}
+
+header {
+    background-color: #099d8d;
+    color: white;
+}
+
+nav {
+    background-color: #14d9c4;
+    color: white;
+}
+
+.navfooter {
+    width: 200px;
+    height: 60px;
+    margin: 20px 29px 30px;
+    opacity: 0.75;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #54585a;
+    background-color: white;
+}
+
+/*.Rectangle-3-Copy {
+    width: 320px;
+    height: 504px;
+    padding: 30px 15px;
+    background-color: var(--white);
+  }
+  .Rectangle-3 {
+    width: 320px;
+    height: 579px;
+    margin: 504px 0 0;
+    padding: 30px 15px 45px;
+    opacity: 0.2;
+    background-color: #b8b8b9;
+  }*/
+
+  footer {
+      font-size: 14px;
+  }
