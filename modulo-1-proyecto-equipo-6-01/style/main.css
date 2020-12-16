@@ -1,22 +1,40 @@
+* {
+    margin: 2px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+:root {
+    --brand-color: #14d9c4;
+}
 body {
     font-family: sans-serif;
     color:#54585a;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
-header {
+#header {
     background-color: #099d8d;
-    color: white;
+    color: whitesmoke;
 }
 
-nav {
-    background-color: #14d9c4;
-    color: white;
+.navclass {
+    background-color: var(--brand-color);
+    color: whitesmoke;
 }
+
+.navclass:hoover {
+    color: var(--brand-color);
+    background-color: whitesmoke;
+}
+
+/*li {
+    display: inline-block;
+    width: 30%;
+} */
 
 .navfooter {
     width: 200px;
-    height: 60px;
+    height: 100%;
     margin: 20px 29px 30px;
     opacity: 0.75;
     font-family: sans-serif;
@@ -28,7 +46,12 @@ nav {
     letter-spacing: normal;
     text-align: center;
     color: #54585a;
-    background-color: white;
+    background-color: whitesmoke;
+    display: block;
+}
+
+a {
+    display: block;
 }
 
 /*.Rectangle-3-Copy {

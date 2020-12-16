@@ -35,4 +35,5 @@ td {
   width: 100%;
   color: darkslategrey;
   font-size: 14px;
+  /*display: table-cell;*/
 }

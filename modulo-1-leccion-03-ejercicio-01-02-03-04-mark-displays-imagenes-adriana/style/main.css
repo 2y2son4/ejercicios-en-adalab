@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+mark {
+    background-color: burlywood;
+    border-radius: 2px;
+    padding: 1px;
+}
+#first-display {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-color: burlywood;
+    border-color: burlywood;
+    border-radius: 10px;
+}
+
+#second-display {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    background-color: burlywood;
+    border-color: burlywood;
+    border-radius: 10px;
+}
+
+#third-display {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: burlywood;
+    border-color: burlywood;
+    border-radius: 10px;
+}
+
+#zero-display {
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-color: burlywood;
+    border-color: burlywood;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
