@@ -1,0 +1,14 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+ul {
+padding-left: 0px;
+}
+
+li {
+list-style-type: none;
+padding-left: 0px;
+display: inline-block;
+margin: 12px;
+}
