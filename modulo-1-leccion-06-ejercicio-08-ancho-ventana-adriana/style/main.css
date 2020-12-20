@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    background-color: rgb(184, 110, 110);
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: rgb(168, 184, 110);
+  }
+}
+
+@media all and (min-width: 768px) {
+  body {
+    background-color: rgb(182, 110, 184);
+  }
+}
+
+.container {
+  margin: 15px;
+  background-color: aquamarine;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 20px;
+  margin-left: 20px;
+}
