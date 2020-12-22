@@ -3,5 +3,5 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif; /*Se puede poner aquí la fuente porque solo se va a utilizar una*/
-    background-color: var(--white);
+    background-color: var(--brand2);
 }

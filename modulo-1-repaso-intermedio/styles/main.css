@@ -1,7 +1,7 @@
 :root {
-    --fire: #cc212A;
-    --white: #ffffff;
-    --grey: #727272;
+    --brand1: #cc212A;
+    --brand2: #ffffff;
+    --brand3: #727272;
 }
 .main-content {
     height: 100vh;
@@ -10,7 +10,7 @@
     align-items: center;
 }
 .main-title {
-    color: var(--fire);
+    color: var(--brand1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,13 +24,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 3px solid var(--fire);
+    border-top: 3px solid var(--brand1);
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 .copyright {
-    color: var(--grey);
+    color: var(--brand3);
+    font-weight: 400;
     position: relative;
     top: -20px;
     /* transform: translate(0, -50%); */
@@ -38,10 +39,10 @@
 .logo {
     width: 50px;
     height: 50px;
-    background-color: var(--fire);
+    background-color: var(--brand1);
     font-size: 1rem;
     font-weight: 600;
-    color: var(--white);
+    color: var(--brand2);
     border-radius: 50%;
     display: flex;
     justify-content: center;
