@@ -52,10 +52,10 @@ ul {
   ul {
     padding-left: 0;
   }
-  .article-1 {
-    background-color: rgb(248, 229, 54);
+  .article-1 {    
     width: 70%;
     height: auto;
+    margin-right: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -69,16 +69,39 @@ ul {
   }
   .inside {
     width: 40%;
-    height: 50%;
+    height: 80%;
     background-color: orange;
-    /* position: absolute;
-    right: 0;
-    top: 150px; */
   }
   .footer {
     margin: 0 3% 0 27%;
   }
 }
-/* @media all and (min-width: 1000px) {
-
-} */
+@media all and (min-width: 1000px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header {
+    width: 100%;
+  }
+  main {
+    width: 80%;
+  }
+  .aside {
+    width: 15%;
+  }
+  .article-1 {
+    width: 70%;
+    height: 80vh;
+  }
+  footer {
+    width: 20%;
+    height: auto;
+  }
+  .footer {
+    margin: 0;
+  }
+  p {
+    margin: 15px 0 15px;
+  }
+}
