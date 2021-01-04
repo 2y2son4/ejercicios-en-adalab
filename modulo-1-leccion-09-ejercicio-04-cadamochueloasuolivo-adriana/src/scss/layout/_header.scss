@@ -2,8 +2,9 @@
   background-color: aquamarine;
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 3rem;
+  margin-bottom: 10px;
   height: 75px;
+  padding: 25px;
   @media all and (min-width:768px) {
     height: 100px;
   }
@@ -15,12 +16,14 @@
 .section--top {
   height: 50vh;
   font-size: 32px;
+  font-weight: bolder;
   text-align: center;
   background-color: blanchedalmond;
-  padding: 200px;
+  padding: 250px;
 }
 .section--red {
   background-color: tomato;
+  margin: 10px 0;
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -30,5 +33,6 @@
   background-color: $button-color;
   border-radius: 5px;
   text-transform: uppercase;
+  padding: 5px;
 }
 
