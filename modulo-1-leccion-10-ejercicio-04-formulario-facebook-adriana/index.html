@@ -10,110 +10,127 @@
 </head>
 <body>
     <main>
-        <form class="main__form--singup" action="/signup" method="post"></form>
+        <form class="main__form--singup" action="https://formspree.io/f/mzbkyejj" method="post"></form>
         <div class="container__form">
-            <h1 class="main-title">Create an account</h1>
-        <h2 class="subtitle">It's free and always will be.</h2>
-        <!-- <label for="firstName">Nombre:</label> -->
-        <input placeholder="First name" id="firstName" type="text" name="firstName" required />
-        <!-- <label for="lastName">Apellidos:</label> -->
-        <input placeholder="Surname" id="lastName" type="text" name="lastName" />
-        <!-- <label for="emailAddress">E-mail:</label> -->
-        <input placeholder="Email or mobile number" type="email" id="emailAddress" name="emailAddress" required />
-        <input placeholder="Re-enter email or mobile number" type="email" id="emailAddress" name="emailAddress" required />
-        <!-- <label for="street">Calle:</label>
-        <input placeholder="Dirección" type="text" id="street" name="street" required />
-        <label for="city">Ciudad:</label>
-        <input placeholder="Ciudad" type="text" id="city" name="city" required />
-        <label for="province">Provincia:</label>
-        <input placeholder="Provincia" type="text" id="province" name="province" value="Madrid" required />
-        <label for="country">País:</label>
-        <input placeholder="País" type="text" id="country" name="country" value="España" required />
-        <label for="id">DNI:</label>
-        <input placeholder="DNI" type="text" id="id" name="id" required />
-        -->
-        <!--<input placeholder="Teléfono" type="tel" id="telephone" name="telephone" />
-        <label for="password">Contraseña:</label> -->
-        <input placeholder="New password" type="password" id="password" name="password" />
-        <!-- <label for="confirm">Confirmar contraseña:</label>
-        <input placeholder="Confirmar contraseña" type="password" id="confirm" value="Confirmar contraseña" /> -->
-        <label for="birthday">Birthday:</label>
-        <!-- <select id="day" name="day">
-            <option value="day">Day</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-        </select>
-        <select id="month" name="month">
-            <option value="month">Month</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-        </select>
-        <select id="year" name="year">
-            <option value="year">Year</option>
-            <option value="1980">1980</option>
-            <option value="1981">1981</option>
-            <option value="1982">1982</option>
-            <option value="1983">1983</option>
-            <option value="1984">1984</option>
-            <option value="1985">1985</option>
-            <option value="1986">1986</option>
-            <option value="1987">1987</option>
-            <option value="1988">1988</option>
-        </select> -->
-        <input type="date" id="start" name="trip-start"
-       value="1985-08-16"
-       min="1910-01-01" max="2002-12-31">
-        <small class="text-small"><a href="" class="question">Why do i need to provide my date of birth?</a></small>
-        <div class="gender"><div>
-        <label for="gender1">
-        <input
-        id="gender1"
-        type="radio"
-        value="debitcard"
-        name="paymentmethods"
-        />
-        Female.
-        </label>
+          <h1 class="main-title">Create an account</h1>
+          <h2 class="subtitle">It's free and always will be.</h2>
+          <input placeholder="First name" id="firstName" type="text" name="firstName" required />
+          <input placeholder="Surname" id="lastName" type="text" name="lastName" />
+          <input placeholder="Email or mobile number" type="email" id="emailAddress" name="emailAddress" required />
+          <input placeholder="Re-enter email or mobile number" type="text" id="emailAddress" name="emailAddress" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" required />
+          <input placeholder="New password" type="password" id="password" name="password" />
+          <label for="birthday">Birthday:</label>
+          <!-- <div>
+            <label for="">Fecha de nacimiento:</label>
+            <select name="" id="">
+              <option value="1"></option>
+              <option value="2"></option>
+              <option value="3"></option>
+              <option value="4"></option>
+              <option value="5"></option>
+              <option value="6"></option>
+              <option value="7"></option>
+              <option value="8"></option>
+              <option value="9"></option>
+              <option value="10"></option>
+              <option value="11"></option>
+              <option value="12"></option>
+              <option value="13"></option>
+              <option value="14"></option>
+              <option value="15"></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+          </div>
+          <select id="day" name="day">
+              <option value="">Day</option> Para este valor hay que hablar con back-end para saber qué poner, el valor que mostrará a la usuaria si lo ha seleccionado y es incorrecto.
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+          </select>
+          <select id="month" name="month">
+              <option value="">Month</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+          </select>
+          <select id="year" name="year">
+              <option value="">Year</option>
+              <option value="1980">1980</option>
+              <option value="1981">1981</option>
+              <option value="1982">1982</option>
+              <option value="1983">1983</option>
+              <option value="1984">1984</option>
+              <option value="1985">1985</option>
+              <option value="1986">1986</option>
+              <option value="1987">1987</option>
+              <option value="1988">1988</option>
+          </select>  -->
+          <div><input type="date" id="start" name="trip-start" value="1985-08-16" min="1910-01-01" max="2002-12-31">
+          <small class="text-small"><a href="" class="question">Why do I need to provide my date of birth?</a></small>
+        </div>
+      <div class="gender"
+        ><div>
+          <label for="gender1">
+          <input
+          id="gender1"
+          type="radio"
+          value="debitcard"
+          name="paymentmethods" />
+          Female.
+          </label>
         </div>
         <div>
-        <label for="gender2">
-        <input
-        id="gender2"
-        type="radio"
-        value="creditcard"
-        name="paymentmethods"
-        />
-        Male.
-        </label>
+          <label for="gender2">
+          <input
+          id="gender2"
+          type="radio"
+          value="creditcard"
+          name="paymentmethods" />
+          Male.
+          </label>
         </div>
         <div>
-        <label for="gender3">
-        <input
-        id="gender3"
-        type="radio"
-        value="paypal"
-        name="paymentmethods"
-        />
-        Other.
-        </label>
-        </div></div>
+          <label for="gender3">
+          <input
+          id="gender3"
+          type="radio"
+          value="paypal"
+          name="paymentmethods" />
+          Other.
+          </label>
+        </div>
+      </div>
         <label for="comments">Comment for my profile:</label>
 <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
         <input type="hidden" id="webnavigator" name="navigator" value="chrome" />
@@ -123,8 +140,7 @@
                 id="termsandconditions"
                 type="checkbox"
                 value="termsandconditions"
-                name="termsandconditions"
-              />
+                name="termsandconditions" required/>
               I have "read" and I accept the terms and conditions.
             </label>
           </div>
