@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Lección 1.11 | Ejercicio 3</title>
 </head>
-<body>
+<body> 
+<!-- Se podría utilizar el body como el contendor, pero habrá ocasiones en las que el grid solo ocupará una parte de la página y no se podrá hacer. -->
     <div class="wrapper">
-        <div class="item item1">HEADER</div>
-        <div class="item item2">MENU</div>
-        <div class="item item3">CONTENT</div>
-        <div class="item item4">FOOTER</div>
-      </div>
+        <header class="item header">Header</header>
+        <nav class="item nav">
+            <ul class="nav bar" >
+                <li class="bar__item"><a href="./graphic-design.html" class="bar__link graphic">Diseño gráfico</a></li>
+                <li class="bar__item"><a href="./publishing.html" class="bar__link publishing">Diseño editorial</a></li>
+                <li class="bar__item"><a href="./web-design.html" class="bar__link web">Diseño web</a></li>
+                <li class="bar__item"><a href="./photography.html" class="bar__link photo">Fotografía</a></li>
+                <li class="bar__item"><a href="./contact.html" class="bar__link contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <section class="item section">Content</section>
+        <footer class="item footer">Footer</footer>
+    </div>
 </body>
 </html>

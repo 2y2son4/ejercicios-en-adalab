@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 70% 30%;
   grid-template-rows: 50px 100px 50px;
   grid-template-areas: "header header" "main aside" "footer footer";
   gap: 5px;
