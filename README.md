@@ -6,7 +6,3 @@ Ejercicios de Adriana Del Teso en la promoción Lee en Adalab.
 - CSS.
 - SCSS.
 - Grid.
-
-**Módulo 2:**
-- JavaScript.
-
