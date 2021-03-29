@@ -1,0 +1,23 @@
+.filter {
+  padding: 10px;
+  border-radius: 20px;
+  border: white solid 5px;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    font-size: 20px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    &--input {
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    &--label {
+      font-size: 18px;
+    }
+  }
+}

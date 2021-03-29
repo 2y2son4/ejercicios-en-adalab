@@ -1,0 +1,47 @@
+* {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+i {
+  color: rebeccapurple;
+  font-size: 100px;
+  margin: 50px;
+}
+.icon-2 {
+  color: crimson;
+  font-size: 20px;
+  margin: 5px;
+}
+
+ul {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 50px;
+}
+article {
+  border: rebeccapurple 2px solid;
+  border-radius: 15px;
+  margin: 10px;
+}
+.ulMembers {
+  display: block;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

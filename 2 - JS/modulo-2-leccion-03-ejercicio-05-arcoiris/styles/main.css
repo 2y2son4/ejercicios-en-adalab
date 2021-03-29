@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.success {
+    border: 2px darkgreen solid;
+    background-color: lightgreen;
+    color: darkgreen;
+}
+.error {
+    border: 2px darkred solid;
+    background-color: rgb(250, 108, 108);
+    color: darkred;
+}
+.warning {
+    border: 2px yellow solid;
+    background-color: lightgreen;
+    color: yellow;
+}

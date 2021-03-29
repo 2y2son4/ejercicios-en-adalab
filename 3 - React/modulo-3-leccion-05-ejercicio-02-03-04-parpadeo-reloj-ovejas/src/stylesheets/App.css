@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.div1 {
+  width: 250px;
+  height: 250px;
+  background-color: teal;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 80px 0;
+}
+
+.div2 {
+  width: 250px;
+  height: 250px;
+  background-color: tomato;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 80px 0;
+}
+
+.count {
+  font-size: 56px;
+}
+.sheepBtn,
+.btn {
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  border-radius: 15px;
+  width: 250px;
+  height: 150px;
+  background-color: tomato;
+  border: transparent;
+  cursor: pointer;
+}
+.sheepBtn:hover,
+.btn:hover {
+  background-color: teal;
+  color: yellowgreen;
+}
+
+.imgSheep {
+  width: 50px;
+  margin: 5px;
+}
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.li {
+  list-style-type: none;
+}

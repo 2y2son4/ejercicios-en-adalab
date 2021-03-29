@@ -1,0 +1,31 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 15px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eed9e4;
+}
+
+.btn {
+  background-color: #fabada;
+  width: 350px;
+  height: 100px;
+  border-radius: 15px;
+  border: #fabada solid 1px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  line-height: 32px;
+  position: fixed;
+  top: 25px;
+  left: 50%;
+  margin-left: -175px;
+}
+.btn:hover {
+  background-color: #db4d94;
+}

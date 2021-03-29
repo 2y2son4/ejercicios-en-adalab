@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input,
+.select {
+  height: 50px;
+}
+.input,
+.select,
+.textarea {
+  margin: 15px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  &:hover {
+    background-color: #61dafb;
+  }
+}
+
+.card {
+  width: 300px;
+  min-height: 400px;
+  background-color: #61dafb;
+  border: white solid 5px;
+  border-radius: 15px;
+  color: #282c34;
+  text-align: left;
+  &__title {
+    font-size: 28px;
+  }
+  &__description,
+  &__language,
+  &__rating,
+  &__genre {
+    font-size: 16px;
+  }
+  &__title,
+  &__description,
+  &__language,
+  &__rating,
+  &__genre {
+    padding: 0 15px;
+    border-bottom: white solid 1px;
+  }
+}
+
+.form {
+  &__radio,
+  &__checkbox {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 18px;
+    text-align: left;
+    color: #282c34;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    &:hover {
+      background-color: #61dafb;
+    }
+  }
+  &__btn {
+    background-color: #61dafb;
+    color: #282c34;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: white solid 3px;
+    margin: 10px;
+    padding: 10px;
+    &:hover {
+      border: #61dafb solid 3px;
+      color: white;
+      background-color: #282c34;
+    }
+  }
+}

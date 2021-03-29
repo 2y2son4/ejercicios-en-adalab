@@ -1,0 +1,230 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+	box-sizing: border-box;
+}
+
+.body {
+	background-color: black;
+}
+
+.bg-a {
+	background-color: aliceblue;
+}
+.bg-a::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Alice blue";
+	font-size: 50px;
+	color: royalblue;
+}
+
+.bg-b {
+	background-color: royalblue;
+}
+.bg-b::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "royal Blue";
+	font-size: 50px;
+	color: white;
+}
+
+.bg-c {
+	background-color: crimson;
+}
+.bg-c::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Crimsom";
+	font-size: 50px;
+	color: white;
+}
+
+.bg-d {
+	background-color: darkorchid;
+}
+.bg-d::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Dark orchid";
+	font-size: 50px;
+	color: white;
+}
+
+.bg-e {
+	background-color: #279b61;
+}
+.bg-e::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Eucalyptus";
+	font-size: 50px;
+	color: white;
+}
+
+.bg-f {
+	background-color: firebrick;
+}
+.bg-f::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Fire brick";
+	font-size: 50px;
+	color: #250a0a;
+}
+
+.bg-g {
+	background-color: goldenrod;
+}
+.bg-g::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Golden rod";
+	font-size: 50px;
+	color: #250a0a;
+}
+
+.bg-h {
+	background-color: hotpink;
+}
+.bg-h::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Hot pink";
+	font-size: 50px;
+	color: #250a0a;
+}
+
+.bg-i {
+	background-color: indigo;
+}
+.bg-i::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Indigo";
+	font-size: 50px;
+	color: #250a0a;
+}
+
+.bg-j {
+	background-color: 	#e0d191;
+}
+.bg-j::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Jazzamoon";
+	font-size: 50px;
+	color: #250a0a;
+}
+
+.bg-k {
+	background-color: #f0e68c;
+}
+.bg-k::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Khaki";
+	font-size: 50px;
+	color: #250a0a;
+}
+.bg-k::after {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 600%);
+	content: "#f0e68c";
+	font-size: 50px;
+	color: #250a0a;
+}
+
+.bg-l {
+	background-color: firebrick;
+}
+
+.bg-m {
+	background-color: firebrick;
+}
+
+.bg-n {
+	background-color: firebrick;
+}
+
+.bg-o {
+	background-color: firebrick;
+}
+
+.bg-p {
+	background-color: purple;
+}
+
+.bg-q {
+	background-color: firebrick;
+}
+
+.bg-r {
+	background-color: red;
+}
+
+.bg-s {
+	background-color: salmon;
+}
+
+.bg-t {
+	background-color: teal;
+}
+
+.bg-u {
+	background-color: firebrick;
+}
+
+.bg-v {
+	background-color: firebrick;
+}
+
+.bg-w {
+	background-color: firebrick;
+}
+
+.bg-x {
+	background-color: firebrick;
+}
+
+.bg-y {
+	background-color: firebrick;
+}
+
+.bg-z {
+	background-color: #39a78e;
+}
+.bg-z::before {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 400%);
+	content: "Zoboba";
+	font-size: 50px;
+	color: white;
+}

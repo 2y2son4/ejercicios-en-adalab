@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.kiwis {
+    background-color: green;
+    color: black;
+    border: 5px rgb(117, 76, 22) solid;
+    border-radius: 18px;
+    font-size: 30px;
+}
+.peras {
+    background-color: chartreuse;
+    color: white;
+    border: 5px rgb(117, 76, 22) solid;
+    border-radius: 18px;
+    font-size: 30px;
+}
+.uvas {
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 30px;
+}
+.total {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+}

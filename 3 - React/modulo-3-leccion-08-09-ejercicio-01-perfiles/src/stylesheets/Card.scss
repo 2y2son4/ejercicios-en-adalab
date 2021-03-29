@@ -1,0 +1,47 @@
+.list {
+  padding-left: 0;
+  &__item {
+    font-size: 14px;
+  }
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 75px 75px 75px;
+  // width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  border: white solid 10px;
+  color: #282c34;
+  text-align: left;
+  background-color: #61dafb;
+
+  &__img {
+    border-radius: 30%;
+    margin: auto;
+    grid-column: 1 / 2;
+    padding: 10px;
+  }
+  &__name {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 15px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  &__text {
+    &--city,
+    &--age {
+      font-size: 16px;
+      padding-left: 5px;
+    }
+    &--city {
+      grid-column: 2/3;
+      grid-row: 1/2;
+    }
+    &--age {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+body {
+  background-color: #282c34;
+}
+.App {
+  text-align: center;
+  &-nav {
+    color: #61dafb;
+    background-color: #282c34;
+    margin: 0;
+    height: 15vh;
+    &-list {
+      padding: 25px 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 30px;
+    }
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title {
+  color: #61dafb;
+  background-color: #282c34;
+  margin: 0;
+  font-size: 50px;
+  padding-top: 100px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  border-bottom: #61dafb solid 2px;
+}
+
+.paragraph {
+  padding: 150px 150px 50px;
+  font-size: 50px;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 250px;
+}
+
+li {
+  transform: scale(1);
+  transition: 0.5s linear transform;
+  &:hover {
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,33 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.div1 {
+  position: fixed;
+  z-index: 998;
+  background-color: rgba(172, 127, 255, 0.63);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.btn {
+  margin: 20px;
+}

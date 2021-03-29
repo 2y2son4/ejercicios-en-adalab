@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.title--big {
+    font-size: 40px;
+}
+label {
+    display: block;
+    margin: 10px;
+}
+input {
+    display: block;
+    margin: 10px;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: olive 2px solid;
+}
